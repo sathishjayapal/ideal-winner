@@ -62,7 +62,7 @@ cards:
     build_number: 0.0.1-SNAPSHOT
     contactDetails:
         name: Cards Sathish Jayapal
-        email: {cipher}f9e1104c9515d021d012389b9baa1a6669eb0f4136578780fb5a82a574c9b3835f10a4c8c36ad650e3060ea05709f3d7
+        email: "{cipher}f9e1104c9515d021d012389b9baa1a6669eb0f4136578780fb5a82a574c9b3835f10a4c8c36ad650e3060ea05709f3d7"
     supported_cloud_env:
         - CardsMS_Primary_Azure
         - CardsMS_Secondary_AWS
