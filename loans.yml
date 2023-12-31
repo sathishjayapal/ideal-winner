@@ -71,4 +71,4 @@ loans:
 loans-cloud:
     supported_cloud_env:
         - LoansMS_Primary_Azure
-        - LoansMS_Secondary_AWS
+        - LoansMS_Secondary_Google
