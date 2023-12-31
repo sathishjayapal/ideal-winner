@@ -15,13 +15,13 @@ management:
 server:
     shutdown: graceful
 spring:
+    application:
+        name: accounts
     rabbitmq:
         host: "localhost"
         port: 5672
         username: "guest"
         password: "guest"
-    application:
-        name: accounts
     data:
         jpa:
             repositories:
@@ -58,11 +58,12 @@ spring:
         show-sql: true
     main:
         allow-bean-definition-overriding: true
+
 accounts:
     java_version: 18
     build_number: 0.0.2-SNAPSHOT
     contactDetails:
-        name: Sathish Kumar Jayapal
+        name: Sathish K Jayapal
         email: "{cipher}f9e1104c9515d021d012389b9baa1a6669eb0f4136578780fb5a82a574c9b3835f10a4c8c36ad650e3060ea05709f3d7"
 account-cloud:
     supported_cloud_env:
