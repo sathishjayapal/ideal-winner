@@ -50,7 +50,14 @@ spring:
         show-sql: true
     main:
         allow-bean-definition-overriding: true
-
+management:
+    endpoint:
+        health:
+            show-details: always
+    endpoints:
+        web:
+            exposure:
+                include: configprops,env,health,info,logfile,loggers,metrics,prometheus,busrefresh,monitor,refresh
 accounts:
     java_version: 18
     build_number: 0.0.2-SNAPSHOT
