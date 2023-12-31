@@ -11,7 +11,7 @@ management:
     endpoints:
         web:
             exposure:
-                include: configprops,env,health,info,logfile,loggers,metrics,prometheus,busrefresh,monitor,refresh
+                include: "*"
 server:
     port: 8090
     shutdown: graceful
@@ -68,6 +68,7 @@ loans:
     contactDetails:
         name: Loans Sathish Jayapal
         email: "{cipher}76c5f86ded43da846ec1200e0406f17e6746572250478b7d81203f8f762bfb65a68e341fe1e0575c7efeeff7d4c20c8d"
+loans-cloud:
     supported_cloud_env:
         - LoansMS_Primary_Azure
         - LoansMS_Secondary_AWS
