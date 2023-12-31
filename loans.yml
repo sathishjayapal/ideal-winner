@@ -67,7 +67,7 @@ loans:
     build_number: 0.0.1-SNAPSHOT
     contactDetails:
         name: Loans Sathish Jayapal
-        email: "{cipher}f9e1104c9515d021d012389b9baa1a6669eb0f4136578780fb5a82a574c9b3835f10a4c8c36ad650e3060ea05709f3d7"
+        email: "{cipher}76c5f86ded43da846ec1200e0406f17e6746572250478b7d81203f8f762bfb65a68e341fe1e0575c7efeeff7d4c20c8d"
     supported_cloud_env:
         - LoansMS_Primary_Azure
         - LoansMS_Secondary_AWS
