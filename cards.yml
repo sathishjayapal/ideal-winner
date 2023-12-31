@@ -11,13 +11,18 @@ management:
     endpoints:
         web:
             exposure:
-                include: configprops,env,health,info,logfile,loggers,metrics,prometheus
+                include: configprops,env,health,info,logfile,loggers,metrics,prometheus,busrefresh,monitor,refresh
 server:
     port: 8080
     shutdown: graceful
 spring:
     application:
         name: cards
+    rabbitmq:
+        host: "localhost"
+        port: 15672
+        username: "guest"
+        password: "guest"
     data:
         jpa:
             repositories:
@@ -57,6 +62,7 @@ spring:
     mvc:
         problemdetails:
             enabled: true
+
 cards:
     java_version: 18
     build_number: 0.0.1-SNAPSHOT

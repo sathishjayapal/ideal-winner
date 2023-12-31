@@ -11,7 +11,7 @@ management:
     endpoints:
         web:
             exposure:
-                include: configprops,env,health,info,logfile,loggers,metrics,prometheus
+                include: configprops,env,health,info,logfile,loggers,metrics,prometheus,busrefresh,monitor,refresh
 server:
     port: 8090
     shutdown: graceful
@@ -20,6 +20,11 @@ spring:
         name: loans
     profiles:
         active: local
+    rabbitmq:
+        host: "localhost"
+        port: 15672
+        username: "guest"
+        password: "guest"
     data:
         jpa:
             repositories:
