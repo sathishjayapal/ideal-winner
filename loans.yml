@@ -18,8 +18,6 @@ server:
 spring:
     application:
         name: loans
-    profiles:
-        active: local
     rabbitmq:
         host: "localhost"
         port: 5672

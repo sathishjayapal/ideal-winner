@@ -11,7 +11,7 @@ management:
     endpoints:
         web:
             exposure:
-                include: configprops,env,health,info,logfile,loggers,metrics,prometheus,refresh,busrefresh,monitor
+                include: *
 server:
     shutdown: graceful
 spring:
