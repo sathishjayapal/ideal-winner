@@ -66,5 +66,5 @@ accounts:
         email: "{cipher}76c5f86ded43da846ec1200e0406f17e6746572250478b7d81203f8f762bfb65a68e341fe1e0575c7efeeff7d4c20c8d"
 account-cloud:
     supported_cloud_env:
-        - Account_MS_Primary_Azure
-        - Account_Secondary_AWS
+        - Account_MS_PrimaryCloud_Azure
+        - Account_MS_SecondaryCloud_AWS
