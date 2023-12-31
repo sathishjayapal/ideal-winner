@@ -67,4 +67,4 @@ accounts:
 account-cloud:
     supported_cloud_env:
         - Account_MS_Primary_Azure
-        - Secondary_AWS
+        - Account_Secondary_AWS
