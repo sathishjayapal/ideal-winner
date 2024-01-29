@@ -1,6 +1,6 @@
 spring:
     rabbitmq:
-        host: "localhost"
+        host: "13.93.183.114"
         port: 5672
         username: "guest"
         password: "guest"
@@ -17,9 +17,3 @@ spring:
         hibernate:
             ddl-auto: update
         show-sql: true
-    threads:
-        virtual:
-            enabled: true
-    sql:
-        init:
-            mode: always

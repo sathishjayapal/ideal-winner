@@ -11,11 +11,6 @@ server:
 spring:
     application:
         name: trackgarmin
-    rabbitmq:
-        host: "4.151.217.229"
-        port: 5672
-        username: "guest"
-        password: "guest"
     data:
         jpa:
             repositories:
