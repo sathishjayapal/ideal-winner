@@ -1,14 +1,15 @@
 spring:
-    rabbitmq:
-        host: "localhost"
-        port: 5672
-        username: "guest"
-        password: "guest"
+
     datasource:
         url: jdbc:h2:mem:testdb
         driverClassName: org.h2.Driver
         username: sa
         password: ''
+    rabbitmq:
+        host: "localhost"
+        port: 5672
+        username: "guest"
+        password: "guest"
     h2:
         console:
             enabled: true
