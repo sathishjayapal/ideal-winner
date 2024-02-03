@@ -3,7 +3,7 @@ spring:
         virtual:
             enabled: true
     datasource:
-        url: jdbc:postgresql://db:5432/${POSTGRES_DB}
+        url: jdbc:postgresql://localhost:5432/garmindb
         username: postgres
         password: mysecretpassword
     rabbitmq:
