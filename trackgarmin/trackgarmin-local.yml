@@ -3,9 +3,10 @@ spring:
         virtual:
             enabled: true
     datasource:
-        url: jdbc:postgresql://localhost:5432/garmindb
-        username: postgres
-        password: mysecretpassword
+        url: jdbc:h2:mem:testdb
+        driverClassName: org.h2.Driver
+        username: sa
+        password: ''
     rabbitmq:
         host: "localhost"
         port: 5672
@@ -15,9 +16,11 @@ spring:
         console:
             enabled: true
     jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
         hibernate:
             ddl-auto: update
         show-sql: true
+
     sql:
         init:
             mode: always

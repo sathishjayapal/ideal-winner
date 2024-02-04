@@ -1,4 +1,17 @@
 spring:
     datasource:
-        driver-class-name: org.postgresql.Driver
-        url: ${JDBC_DATABASE_URL}
+        url: jdbc:postgresql://localhost:5432/stravadb
+        username: postgres
+        password: mysecretpassword
+    rabbitmq:
+        host: "localhost"
+        port: 5672
+        username: "guest"
+        password: "guest"
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    sql:
+        init:
+            mode: always
