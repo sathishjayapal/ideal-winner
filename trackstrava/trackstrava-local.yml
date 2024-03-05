@@ -22,7 +22,7 @@ eureka:
     instance:
         preferIpAddress: true
     client:
-        fetchRegistry: trueYe
+        fetchRegistry: true
         registerWithEureka: true
         serviceUrl:
             defaultZone: http://localhost:8070/eureka/
