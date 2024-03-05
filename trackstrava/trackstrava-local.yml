@@ -9,6 +9,7 @@ spring:
         driverClassName: org.h2.Driver
         username: sa
         password: ''
+
     h2:
         console:
             enabled: true
@@ -17,3 +18,15 @@ spring:
         hibernate:
             ddl-auto: update
         show-sql: true
+eureka:
+    instance:
+        preferIpAddress: true
+    client:
+        fetchRegistry: trueYe
+        registerWithEureka: true
+        serviceUrl:
+            defaultZone: http://localhost:8070/eureka/
+info:
+    app:
+        name: "trackstrava"
+        version: "1.0.0"
